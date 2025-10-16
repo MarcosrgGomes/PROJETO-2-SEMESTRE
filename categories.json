@@ -1,0 +1,26 @@
+[
+    {
+        "id": "68ec2b65791317.35842829",
+        "name": "Eletrônicos",
+        "description": "Produtos eletrônicos",
+        "status": "active"
+    },
+    {
+        "id": "68ec2b657913a4.20530693",
+        "name": "Roupas",
+        "description": "Vestuário em geral",
+        "status": "active"
+    },
+    {
+        "id": "68ec2b657913b9.66496388",
+        "name": "Alimentos",
+        "description": "Produtos alimentícios",
+        "status": "active"
+    },
+    {
+        "id": "68ec2b657913c0.97860660",
+        "name": "Livros",
+        "description": "Livros e publicações",
+        "status": "active"
+    }
+]

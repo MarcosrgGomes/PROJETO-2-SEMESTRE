@@ -1,0 +1,98 @@
+[
+    {
+        "id": "68f00983a66a95.33657544",
+        "user_id": "68effed70f9aa7.75502197",
+        "user_name": "Administrador",
+        "action": "logout",
+        "details": {
+            "user_id": "68effed70f9aa7.75502197"
+        },
+        "ip": "::1",
+        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/138.0.0.0 Safari\/537.36 OPR\/122.0.0.0",
+        "timestamp": "2025-10-15 17:52:19"
+    },
+    {
+        "id": "68f009f0c07726.04176282",
+        "user_id": "68ec2b65692fb3.84035730",
+        "user_name": "Administrador",
+        "action": "login_success",
+        "details": {
+            "user_id": "68ec2b65692fb3.84035730"
+        },
+        "ip": "::1",
+        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/138.0.0.0 Safari\/537.36 OPR\/122.0.0.0",
+        "timestamp": "2025-10-15 17:54:08"
+    },
+    {
+        "id": "68f00a26707e60.96916429",
+        "user_id": "68ec2b65692fb3.84035730",
+        "user_name": "Administrador",
+        "action": "logout",
+        "details": {
+            "user_id": "68ec2b65692fb3.84035730"
+        },
+        "ip": "::1",
+        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/138.0.0.0 Safari\/537.36 OPR\/122.0.0.0",
+        "timestamp": "2025-10-15 17:55:02"
+    },
+    {
+        "id": "68f00a2814cf34.98820182",
+        "user_id": "68ec2b65692fb3.84035730",
+        "user_name": "Administrador",
+        "action": "login_success",
+        "details": {
+            "user_id": "68ec2b65692fb3.84035730"
+        },
+        "ip": "::1",
+        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/138.0.0.0 Safari\/537.36 OPR\/122.0.0.0",
+        "timestamp": "2025-10-15 17:55:04"
+    },
+    {
+        "id": "68f02cbb0492c0.61799498",
+        "user_id": "68ec2b65692fb3.84035730",
+        "user_name": "Administrador",
+        "action": "logout",
+        "details": {
+            "user_id": "68ec2b65692fb3.84035730"
+        },
+        "ip": "::1",
+        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/138.0.0.0 Safari\/537.36 OPR\/122.0.0.0",
+        "timestamp": "2025-10-15 20:22:35"
+    },
+    {
+        "id": "68f02d2059b905.98999347",
+        "user_id": "68ec2b65692fb3.84035730",
+        "user_name": "Administrador",
+        "action": "login_success",
+        "details": {
+            "user_id": "68ec2b65692fb3.84035730"
+        },
+        "ip": "::1",
+        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/138.0.0.0 Safari\/537.36 OPR\/122.0.0.0",
+        "timestamp": "2025-10-15 20:24:16"
+    },
+    {
+        "id": "68f02d25469103.46738620",
+        "user_id": "68ec2b65692fb3.84035730",
+        "user_name": "Administrador",
+        "action": "logout",
+        "details": {
+            "user_id": "68ec2b65692fb3.84035730"
+        },
+        "ip": "::1",
+        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/138.0.0.0 Safari\/537.36 OPR\/122.0.0.0",
+        "timestamp": "2025-10-15 20:24:21"
+    },
+    {
+        "id": "68f02d386268e2.01665665",
+        "user_id": "68ec2b65692fb3.84035730",
+        "user_name": "Administrador",
+        "action": "login_success",
+        "details": {
+            "user_id": "68ec2b65692fb3.84035730"
+        },
+        "ip": "::1",
+        "user_agent": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/138.0.0.0 Safari\/537.36 OPR\/122.0.0.0",
+        "timestamp": "2025-10-15 20:24:40"
+    }
+]

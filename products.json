@@ -1,0 +1,41 @@
+[
+    {
+        "id": "68ec2b65791622.62981532",
+        "sku": "PRD-001",
+        "name": "Notebook Dell Inspiron",
+        "description": "Notebook com processador Intel Core i5",
+        "category": "Eletrônicos",
+        "cost_price": 2500,
+        "sale_price": 3500,
+        "quantity": 15,
+        "min_quantity": 5,
+        "status": "active",
+        "created_at": "2025-10-12 19:27:49"
+    },
+    {
+        "id": "68ec2b65791678.59764043",
+        "sku": "PRD-002",
+        "name": "Mouse Logitech MX Master",
+        "description": "Mouse sem fio de alta precisão",
+        "category": "Eletrônicos",
+        "cost_price": 200,
+        "sale_price": 350,
+        "quantity": 8,
+        "min_quantity": 10,
+        "status": "active",
+        "created_at": "2025-10-12 19:27:49"
+    },
+    {
+        "id": "68ec2b65791694.22898096",
+        "sku": "PRD-003",
+        "name": "Teclado Mecânico RGB",
+        "description": "Teclado mecânico com iluminação RGB",
+        "category": "Eletrônicos",
+        "cost_price": 300,
+        "sale_price": 500,
+        "quantity": 3,
+        "min_quantity": 5,
+        "status": "active",
+        "created_at": "2025-10-12 19:27:49"
+    }
+]

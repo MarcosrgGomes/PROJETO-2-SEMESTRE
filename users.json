@@ -1,0 +1,11 @@
+[
+    {
+        "id": "68ec2b65692fb3.84035730",
+        "name": "Administrador",
+        "email": "admin@serenity.com",
+        "password": "$2y$10$yE4NUvCNhfeDAuJ39eiUIe\/oJoAJZIBaT2DehisZt4etsduGDO7Ja",
+        "role": "admin",
+        "status": "active",
+        "created_at": "2025-10-12 19:27:49"
+    }
+]
