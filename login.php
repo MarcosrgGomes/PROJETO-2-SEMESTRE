@@ -1,81 +1,42 @@
-<?php
-$pageTitle = 'Login';
-require_once APP_PATH . '/views/templates/header.php';
-?>
-
-<div class="auth-container">
-    <div class="auth-card fade-in">
-        <div class="auth-header">
-            <h1 class="auth-logo">📦 Serenity</h1>
-            <p class="auth-subtitle">Sistema de Gerenciamento de Estoque</p>
+<?php session_start(); ?>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Login - Serenity</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container login-container">
+        <div class="logo">
+            <img src="img/logo.png" alt="Serenity Logo">
         </div>
-        
-        <form action="index.php?page=login&action=authenticate" method="POST" data-validate>
-            <input type="hidden" name="csrf_token" value="<?php echo generateCsrfToken(); ?>">
-            
+        <?php 
+            if (isset($_SESSION['login_error'])) {
+                echo '<p style="color: red; margin-bottom: 1rem;">' . $_SESSION['login_error'] . '</p>';
+                unset($_SESSION['login_error']);
+            }
+            if (isset($_SESSION['register_success'])) {
+                echo '<p style="color: green; margin-bottom: 1rem;">' . $_SESSION['register_success'] . '</p>';
+                unset($_SESSION['register_success']);
+            }
+        ?>
+        <form action="php_actions/handle_login.php" method="POST">
             <div class="form-group">
-                <label for="email" class="form-label required">Email</label>
-                <input 
-                    type="email" 
-                    id="email" 
-                    name="email" 
-                    class="form-control" 
-                    placeholder="seu@email.com"
-                    required
-                    autocomplete="email"
-                    value="admin@serenity.com"
-                >
+                <i class="fas fa-user input-icon"></i>
+                <input type="text" name="usuario" placeholder="Usuário" required>
             </div>
-            
             <div class="form-group">
-                <label for="password" class="form-label required">Senha</label>
-                <div style="position: relative;">
-                    <input 
-                        type="password" 
-                        id="password" 
-                        name="password" 
-                        class="form-control" 
-                        placeholder="••••••••"
-                        required
-                        autocomplete="current-password"
-                        value="admin123"
-                    >
-                    <button 
-                        type="button" 
-                        data-toggle-password="#password"
-                        style="position: absolute; right: 12px; top: 50%; transform: translateY(-50%); background: none; border: none; cursor: pointer; font-size: 1.2em;"
-                    >👁️</button>
-                </div>
-                <small class="form-text">Usuário padrão: admin@serenity.com / admin123</small>
+                <i class="fas fa-lock input-icon"></i>
+                <input type="password" name="senha" placeholder="Senha" required>
             </div>
-            
-            <div class="form-group">
-                <div class="form-check">
-                    <input type="checkbox" id="remember" name="remember" class="form-check-input">
-                    <label for="remember" class="form-check-label">Lembrar-me</label>
-                </div>
+            <button type="submit" class="btn">Entrar</button>
+            <div class="login-links">
+                <a href="#">Esqueci a Senha</a>
+                <a href="registrar.php">Criar Conta</a>
             </div>
-            
-            <button type="submit" class="btn btn-primary" style="width: 100%;">
-                Entrar
-            </button>
         </form>
-        
-        <div class="auth-footer">
-            <p style="color: var(--neutral-600); margin-bottom: var(--space-3);">
-                Não tem uma conta? 
-                <a href="index.php?page=register" style="color: var(--primary-600); font-weight: 600;">
-                    Cadastre-se
-                </a>
-            </p>
-            <p style="color: var(--neutral-600);">
-                <a href="index.php?page=forgot-password" style="color: var(--neutral-600); text-decoration: underline;">
-                    Esqueceu sua senha?
-                </a>
-            </p>
-        </div>
     </div>
-</div>
-
-<?php require_once APP_PATH . '/views/templates/footer.php'; ?>
-
+</body>
+</html>
